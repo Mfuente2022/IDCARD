@@ -116,7 +116,27 @@ video {
   -o-animation: fadeIn ease 10s;
   -ms-animation: fadeIn ease 10s;
 }
-
+@media screen and (min-width: 576px) {
+  .name {
+    font-family: "Oswald", sans-serif;
+    font-size: 6em;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    background-color: black;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    padding: 40px;
+  }
+  img{
+    float: right;
+    height:50%;
+    width: 30vw;
+  
+  }
+  
+  }
 @keyframes fadeIn {
   0% {
     opacity: 0;
